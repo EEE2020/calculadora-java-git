@@ -42,7 +42,7 @@ public class Calculadora {
                     }
                 }
                 case 5 -> {
-                    resultado = math.pow(num1, num2);
+                    resultado = Math.pow(num1, num2);
                     System.out.println("Resultado: " + num1 + "^" + num2 + " = " + resultado);
                 }
                 default -> System.out.println("Opción no válida.");
